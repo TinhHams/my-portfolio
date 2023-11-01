@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:ital,wght@0,400;0,600;1,600&family=Roboto+Mono:wght@700&display=swap');
+
 * {
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -165,6 +168,8 @@ header {
 #about-me {
     margin: 60px 0;
     padding: 40px 80px;
+    background-color: #61677a;
+    color: white;
 }
 
 .about-container {
@@ -190,7 +195,6 @@ header {
 }
 
 .about-desc p {
-    color: #61677a;
     text-align: justify;
 }
 
@@ -259,8 +263,10 @@ header {
 /* Contact Me */
 
 #contact {
-    margin: 60px 0;
+    margin: 60px 0 0 0;
     padding: 40px 80px;
+    background-color: #61677a;
+    color: white;
 }
 
 .contact-me {
@@ -271,15 +277,14 @@ header {
 }
 
 .contact-box a {
-    color: black;
+    color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
     gap: 20px;
     line-height: 1.5;
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: 16px;
 }
 
 .contact-map iframe {
@@ -291,13 +296,13 @@ header {
 footer {
     width: 100%;
     height: auto;
-    background-color: #61677a;
     padding: 40px 80px;
+    background-color: white;
 }
 
 footer span {
     font-size: 16px;
-    color: #ccc;
+    color: black;
 }
 
 /* To Top */
