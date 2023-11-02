@@ -161,6 +161,7 @@ header {
 .hero-skills i:hover {
     box-shadow: 4px 4px 4px #61677a;
     transition: 0.3s ease-out;
+    border-radius: 4px;
 }
 
 /* About Me */
@@ -218,6 +219,7 @@ header {
 .project-box:hover {
     box-shadow: 4px 4px #ccc;
     transition: 0.3s ease-out;
+    border-radius: 4px;
 }
 
 .project-box div {
