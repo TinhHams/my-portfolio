@@ -74,7 +74,7 @@ header {
 
 .close {
     display: none;
-    color: white;
+    color: black;
 }
 
 .mobile {
@@ -346,7 +346,7 @@ footer span {
 
 /* Mobile */
 
-@media (max-width: 798px) {
+@media (max-width: 768px) {
     .section-m {
         margin: 60px;
     }
@@ -386,6 +386,11 @@ footer span {
         right: 0px;
     }
 
+    #navbar li a {
+        text-decoration: none;
+        color: black;
+    }
+
     /* Hero */
 
     .hero-profile {
@@ -403,7 +408,7 @@ footer span {
     }
 
     .hero-container {
-        width: 70%;
+        width: 100%;
     }
 
     .hero-img {
@@ -426,7 +431,7 @@ footer span {
 
     .about-container img,
     .about-desc {
-        width: 70%;
+        width: 100%;
     }
 
     /* Projects */
@@ -441,6 +446,11 @@ footer span {
         flex-direction: column !important;
         align-items: center;
         justify-content: center;
+    }
+
+    .project-box div,
+    .reverse div {
+        text-align: center;
     }
 
     .project-box {
@@ -465,6 +475,7 @@ footer span {
     }
 
     .contact-map iframe {
+        width: 80%;
         display: block;
         margin: 20px auto;
     }
