@@ -192,7 +192,7 @@ header {
 }
 
 .about-container img {
-    width: 40%;
+    width: 45%;
     border-radius: 4px;
 }
 
@@ -203,6 +203,7 @@ header {
 
 .about-desc h2 {
     margin: 12px 0;
+    color: black;
 }
 
 .about-desc p {
@@ -227,7 +228,7 @@ header {
 }
 
 .project-box:hover {
-    box-shadow: 4px 4px #ccc;
+    box-shadow: 0 4px 4px #ccc;
     transition: 0.3s ease-out;
     border-radius: 4px;
 }
@@ -348,7 +349,7 @@ footer span {
 
 @media (max-width: 768px) {
     .section-m {
-        margin: 60px;
+        margin: 60px auto;
     }
 
     .close {
@@ -364,6 +365,10 @@ footer span {
         display: flex;
         align-items: center;
         color: white;
+    }
+
+    header {
+        padding: 40px;
     }
 
     #navbar {
@@ -393,6 +398,11 @@ footer span {
 
     /* Hero */
 
+    #hero {
+        padding: 0 12px;
+        margin: 60px 0;
+    }
+
     .hero-profile {
         align-items: center;
         justify-content: center;
@@ -420,7 +430,8 @@ footer span {
 
     #about-me {
         padding: 20px 0;
-        margin: 0;
+        margin: 60px 0;
+        text-align: center;
     }
 
     .about-container {
@@ -432,6 +443,14 @@ footer span {
     .about-container img,
     .about-desc {
         width: 100%;
+    }
+
+    .about-container img {
+        padding: 0 12px;
+    }
+
+    .about-desc p {
+        margin: 12px;
     }
 
     /* Projects */
@@ -454,13 +473,19 @@ footer span {
     }
 
     .project-box {
+        width: 100%;
         margin: 60px auto;
+        padding: 0 12px;
+    }
+
+    .project-box img {
+        width: 100%;
     }
 
     /* Contact Me */
 
     #contact {
-        padding: 20px 0;
+        padding: 12px;
         margin: 0;
     }
 
@@ -470,12 +495,16 @@ footer span {
         justify-content: center;
     }
 
+    .contact-me.section-m {
+        margin: 20px 0;
+    }
+
     .contact-map {
         width: 100%;
     }
 
     .contact-map iframe {
-        width: 80%;
+        width: 100%;
         display: block;
         margin: 20px auto;
     }
@@ -484,5 +513,6 @@ footer span {
 
     footer {
         text-align: center;
+        padding: 20px 40px;
     }
 }
