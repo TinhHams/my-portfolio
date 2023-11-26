@@ -13,6 +13,7 @@
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 h4 {
@@ -22,6 +23,7 @@ h4 {
 body {
     position: relative;
     width: 100%;
+    background-color: #ffeddb;
 }
 
 .section-m {
@@ -39,14 +41,14 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 40px 80px;
-    background-color: #61677a;
+    background-color: #bf9270;
 }
 
 .my-portfolio {
     font-size: 20px;
     font-weight: 600;
     cursor: pointer;
-    color: white;
+    color: #ffeddb;
 }
 
 #navbar {
@@ -66,12 +68,12 @@ header {
 
 #navbar li a {
     text-decoration: none;
-    color: white;
+    color: #ffeddb;
 }
 
 #navbar li a:hover,
 .my-portfolio:hover {
-    color: black;
+    color: white;
     transition: 0.2s ease-in;
 }
 
@@ -119,7 +121,7 @@ header {
 }
 
 .hero-profile h4 {
-    color: #61677a;
+    color: black;
     text-align: justify;
     margin: 20px 0;
 }
@@ -183,7 +185,7 @@ header {
 #about-me {
     margin: 60px 0;
     padding: 40px 80px;
-    background-color: #61677a;
+    background-color: #e3b7a0;
     color: white;
 }
 
@@ -207,7 +209,7 @@ header {
 
 .about-desc h2 {
     margin: 12px 0;
-    color: black;
+    color: white;
 }
 
 .about-desc p {
@@ -252,8 +254,12 @@ header {
     margin-bottom: 20px;
 }
 
+.project-box h1 {
+    cursor: pointer;
+}
+
 .tech span {
-    color: #61677a;
+    color: black;
     font-weight: 600;
 }
 
@@ -282,7 +288,7 @@ header {
 #contact {
     margin: 60px 0 0 0;
     padding: 40px 80px;
-    background-color: #61677a;
+    background-color: #e3b7a0;
     color: white;
 }
 
@@ -314,7 +320,7 @@ footer {
     width: 100%;
     height: auto;
     padding: 40px 80px;
-    background-color: white;
+    background-color: #fff8ea;
 }
 
 footer span {
@@ -334,11 +340,11 @@ footer span {
 }
 
 #toTop a {
-    color: black;
+    color: #bf9270;
 }
 
 #toTop i:hover {
-    color: white;
+    color: #bf9270;
     transition: 0.3s ease-in-out;
     padding: 20px;
     font-size: 20px;
@@ -349,7 +355,7 @@ footer span {
     font-size: 16px;
     padding: 16px;
     border-radius: 50%;
-    background-color: #ccc;
+    background-color: #fff8ea;
 }
 
 @keyframes animateY {
