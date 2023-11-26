@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 *::-webkit-scrollbar {
@@ -297,6 +297,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    height: auto;
 }
 
 .contact-box a {
